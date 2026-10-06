@@ -1,4 +1,12 @@
 import streamlit as st
+import os
+from google.colab import files
+requirements_content = """
+streamlit>=1.20.0
+pandas>=1.3.0
+"""
+with open('requirements.txt', 'w', encoding='utf-8') as f:
+    f.write(requirements_content.strip())
 import pandas as pd
 from datetime import datetime
 import urllib.parse
