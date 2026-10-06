@@ -38,7 +38,7 @@ if st.button("✉️ Enviar Reporte por WhatsApp", type="primary"):
         
         mensaje = (
             f"🚨 *NUEVO REPORTE LOCATIVO* 🚨
-
+            
 "
             f"👤 *Por:* {nombre}
 "
